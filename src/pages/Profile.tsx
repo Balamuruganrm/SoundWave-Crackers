@@ -143,7 +143,7 @@ export function Profile() {
                   <div className="relative">
                     <input
                       type="tel"
-                      disabled
+                      
                       value={phone}
                       onChange={(e) => setPhone(e.target.value)}
                       className="w-full pl-10 pr-4 py-2 rounded-lg bg-background border border-card-border/10 focus:outline-none focus:border-primary-orange"
